@@ -1,0 +1,17 @@
+{
+  "name": "tradingview-datafeed",
+  "version": "1.0.1",
+  "description": "TradingView UDF Data Feed Server in Node.js",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node test-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
